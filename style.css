@@ -9,7 +9,7 @@
 
 p{
   /* 모든 p 태그에 적용할 스타일 (tag셀렉터) */
-  color:red;
+  text-decoration: underline;
 }
 
 .blue-color{
