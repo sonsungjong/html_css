@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>글자 속성</title>
+  <style>
+    *{
+      margin:0;
+      box-sizing: border-box;
+    }
+    .container{
+      padding:2em;
+      border:1px solid yellowgreen;
+
+      color: green;   /* 글자색 */
+      text-align: left;   /* 글자 왼쪽 정렬 */
+      text-align: right;
+      text-align: center; /* 글자 가운데 정렬*/
+      text-align: justify;  /* 글자 양쪽 정렬*/
+
+      text-decoration: underline; /* 밑줄 */
+      text-decoration: overline;  /* 윗줄 */
+      text-decoration: line-through; /* 취소선*/
+      text-decoration: none;  /* a태그에 많이 해줌*/
+
+      line-height: 40pt;    /* 줄간격 */
+      line-height: normal;
+      letter-spacing: 2.5pt;  /* 글자간격(자간) */
+      letter-spacing: normal;
+      
+      font-family: 궁서체, 'arial';
+      font-size: 1rem;
+      font-size: 12pt;    /* HTML(root) 기본 폰트값 */
+      font-size: 16px;
+      font-size: 1.5rem;    /* 12pt × 1.5 = 18pt */
+      font-weight: 700;   /* 글자 굵기 */
+      font-weight: lighter;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>제목</h2>
+    <p>HTML 등의 마크업 언어로 작성된 문서가 실제로 웹사이트에 표현되는 방법을 정해주는 스타일시트 언어.<br/>CSS의 C가 Cascading의 약자인데, 이는 상위 요소의 스타일 속성을 자손 요소들에게 상속시켜 주는 모습이 DOM 트리 구조에서 마치 폭포수처럼 내려가는 모습을 닮았기 때문이다. 다만 예외로 마진, 패딩, 보더 등의 박스 모델 관련 속성은 상속되지 않는다. 물론 inherit값을 줘서 강제로 상속시킬 순 있다.<br/>
+    스타일 시트 언어이므로 일반적인 프로그래밍 언어와는 다른 종류의 기능을 하지만 HTML과 연결시키면 다음 코드로 Hello World를 출력할 수 있기도 하다.</p>
+  </div>
+</body>
+</html>
